@@ -1,0 +1,30 @@
+{
+  "name": "polymarket-ai-resolution",
+  "version": "1.0.0",
+  "description": "AI-based prediction market resolution system for Polymarket",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "polymarket",
+    "prediction-market",
+    "ai",
+    "oracle",
+    "resolution"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.11.3",
+    "zod": "^4.3.5"
+  }
+}
