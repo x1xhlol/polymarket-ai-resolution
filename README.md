@@ -1,4 +1,4 @@
-# Polymarket AI Resolution System
+# Market AI Resolution System
 
 A proof-of-concept for replacing Polymarket's capital-weighted oracle voting with neutral, evidence-based AI resolution.
 
